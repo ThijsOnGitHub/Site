@@ -1,2 +1,2 @@
 var tekst=document.getElementById("tekst")
-tekst.innerHTML="Hallo"
+tekst.innerHTML="Hallo";
