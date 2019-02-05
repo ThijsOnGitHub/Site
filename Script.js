@@ -1,6 +1,8 @@
 var tekst=document.getElementById("tekst")
 var knop= document.getElementById("knop")
 tekstvarianten=["Dit is magie, deze tekst is veranderd","Leuk dat je klikte","Nu lees je hier wat anders","ERROR 404"]
+
+
 function randomInt(min,max) {
     return Math.floor(Math.random()*max*1)+min
 }
