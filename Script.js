@@ -6,7 +6,6 @@ function randomInt(min,max) {
 }
 
 knop.addEventListener("click",function (){
-    console.log(randomInt(0,10))
     alert("Let's change some tekst")
     deNieuweTekst=tekstvarianten[randomInt(0,tekstvarianten.length)]
     tekst.innerHTML=deNieuweTekst
